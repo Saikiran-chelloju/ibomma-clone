@@ -1,0 +1,87 @@
+.navbar-custom {
+  background-color: #232524; /* Your desired color */
+ }
+
+.navbar-nav {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+    }
+    .nav-item {
+      margin-right: 40px;
+    }
+
+	.navbar-toggler-icon{
+		backgroundolor:yellow;
+	}
+.logo{
+	margin-left:30%;
+}
+.btn{
+	color:black;
+	background-color:yellow;
+}
+.placeholder{
+	color: white;
+	background-color:black;
+}
+
+.heading {
+	color:white;
+	font-size:45px;
+	text-align: center;
+	margin-top:6%;
+	font-family: Arial, sans-serif;
+
+	
+}
+.para{
+	margin-top:2%;
+text-align: center;
+color:white;
+}
+.card-container {
+	
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: calc(16.66%);
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+	background-color:black;
+  }
+
+  .name {
+    position: absolute;
+    bottom: -35px;
+    left: 20px;
+    font-weight: bold;
+	color:white;
+  }
+  .share{
+	  display:none;
+  }
+  @media (max-width: 768px) {
+    .card {
+      width: calc(33.33%); /* Display 3 cards per row on larger screens */
+	  padding: 5px;
+    }
+	.share{
+		display:block;
+	}
+  }
+@media screen and (max-width:768px){
+	.logo{
+		justify-content:center;
+		margin:0px;
+	}
+	.heading{
+	font-size:25px;
+	}
+	
+}
+
